@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "74HC32"
+	(symbol "74HC27D"
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -49,9 +49,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "74HC32_1_0"
+		(symbol "74HC27D_1_0"
 			(pin output line
-				(at -12.7 -5.08 0)
+				(at -12.7 -3.81 0)
 				(length 5.08)
 				(name "1A"
 					(effects
@@ -69,7 +69,7 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -7.62 0)
+				(at -12.7 -6.35 0)
 				(length 5.08)
 				(name "1B"
 					(effects
@@ -87,9 +87,45 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -11.43 0)
+				(at -12.7 -8.89 0)
 				(length 5.08)
-				(name "Q11"
+				(name "1C"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "13"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -13.97 0)
+				(length 5.08)
+				(name "2A"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at -12.7 -16.51 0)
+				(length 5.08)
+				(name "2B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -105,9 +141,9 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -13.97 0)
+				(at -12.7 -19.05 0)
 				(length 5.08)
-				(name "Q10"
+				(name "2C"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -123,9 +159,9 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -17.78 0)
+				(at -12.7 -24.13 0)
 				(length 5.08)
-				(name "Q11"
+				(name "3A"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -141,9 +177,9 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -20.32 0)
+				(at -12.7 -26.67 0)
 				(length 5.08)
-				(name "Q10"
+				(name "3B"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -159,34 +195,16 @@
 				)
 			)
 			(pin output line
-				(at -12.7 -24.13 0)
+				(at -12.7 -29.21 0)
 				(length 5.08)
-				(name "Q11"
+				(name "3C"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "12"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin output line
-				(at -12.7 -26.67 0)
-				(length 5.08)
-				(name "Q10"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "13"
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -240,7 +258,7 @@
 						)
 					)
 				)
-				(number "3"
+				(number "12"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -249,9 +267,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -12.7 180)
+				(at 12.7 -16.51 180)
 				(length 5.08)
-				(name ""
+				(name "2Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -267,9 +285,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 -19.05 180)
+				(at 12.7 -26.67 180)
 				(length 5.08)
-				(name ""
+				(name "3Y"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -284,26 +302,8 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 -25.4 180)
-				(length 5.08)
-				(name "Q0"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "11"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
 		)
-		(symbol "74HC32_1_1"
+		(symbol "74HC27D_1_1"
 			(rectangle
 				(start -7.62 0)
 				(end 7.62 -33.02)
