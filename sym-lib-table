@@ -1,4 +1,5 @@
 (sym_lib_table
   (version 7)
   (lib (name "Logic_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/Logic_my.kicad_sym")(options "")(descr ""))
+  (lib (name "MORNSUN_my")(type "KiCad")(uri "${KIPRJMOD}/Lib/MORNSUN_my.kicad_sym")(options "")(descr ""))
 )
